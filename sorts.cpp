@@ -201,11 +201,10 @@ int main() {
   vector<int> V;
 
   EvaluaOrdenamiento<&SelectionSort>("Sel");
-  EvaluaOrdenamiento<&HeapSort>("Heap");
   EvaluaOrdenamiento<&sort>("sort");
 
-  // EvaluaOrdenamiento<&InsertionSort>("Ins");
-  // EvaluaOrdenamiento<&MergeSort>("Merge");
+  EvaluaOrdenamiento<&InsertionSort>("Ins");
+  EvaluaOrdenamiento<&MergeSort>("Merge");
   // EvaluaOrdenamiento<&QuickSort>("Quick");
 
 }
